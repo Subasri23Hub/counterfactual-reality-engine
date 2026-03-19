@@ -1,58 +1,52 @@
-#  Counterfactual Reality Engine!
+# Counterfactual Reality Engine
 
-An AI-powered system that simulates **alternate realities ("what-if" scenarios)** using structured reasoning and a **single optimized LLM call**.
-
----
-
-##  What This Project Does
-
-This application takes a hypothetical scenario like:
-
-> *"What if chemistry didn’t exist?"*
-
-…and generates a **complete structured analysis** including:
-
-- 📍 Scenario interpretation  
-- ⚡ Counterfactual change  
-- 🏛️ Baseline reality  
-- ⚡ Immediate impacts  
-- 📈 Mid-term impacts  
-- 🎯 Long-term impacts  
-- 📋 Key assumptions  
-- 🎯 Confidence level  
-- 📊 Executive summary  
-
-All in **one API call** → fast, efficient, production-ready.
+An AI-powered system that simulates alternate realities ("what-if" scenarios) using structured reasoning and a single optimized LLM call.
 
 ---
 
-##  Architecture (FAANG-Level)
+## Overview
 
+This application takes a hypothetical scenario and generates a structured analysis including:
 
-User Input → Prompt Builder → Gemini API (1 Call) → JSON Output → UI Rendering
+• Scenario interpretation  
+• Counterfactual change  
+• Baseline reality  
+• Immediate impacts  
+• Mid-term impacts  
+• Long-term impacts  
+• Key assumptions  
+• Confidence level  
+• Executive summary  
 
-
-###  Key Design Highlights
-
-- ✅ **Single-call architecture** (cost-efficient & fast)
-- ✅ **Structured JSON output parsing**
-- ✅ **Retry handling for API limits**
-- ✅ **Separation of concerns (modular design)**
-- ✅ **Production-style UI with Streamlit**
-
----
-
-##🛠️ Tech Stack
-
-- **Python**
-- **Streamlit**
-- **Google Gemini API**
-- **Pydantic-style structured models**
-- **Custom prompt engineering**
+All outputs are generated in a single API call for efficiency, consistency, and performance.
 
 ---
 
-##  Project Structure
+## Architecture
+
+User Input → Prompt Builder → LLM (Single Call) → Structured JSON → UI Rendering
+
+### Design Highlights
+
+• Single-call architecture for low latency and cost efficiency  
+• Structured JSON output parsing  
+• Retry handling for API rate limits  
+• Modular and maintainable code structure  
+• Clean and professional UI using Streamlit  
+
+---
+
+## Tech Stack
+
+• Python  
+• Streamlit  
+• Google Gemini API  
+• Structured data modeling  
+• Prompt engineering  
+
+---
+
+## Project Structure
 
 
 counterfactual-reality-engine/
@@ -76,82 +70,103 @@ counterfactual-reality-engine/
 
 ---
 
-##  Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/counterfactual-reality-engine.git
+### 1. Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/counterfactual-reality-engine.git  
 cd counterfactual-reality-engine
-2️⃣ Create virtual environment
-python -m venv .venv
-source .venv/bin/activate   # Mac/Linux
-.venv\Scripts\activate      # Windows
-3️⃣ Install dependencies
-pip install -r requirements.txt
-4️⃣ Add your Gemini API Key
 
-Create this file:
+---
+
+### 2. Create virtual environment
+
+python -m venv .venv
+
+Activate:
+
+Windows:  
+.venv\Scripts\activate  
+
+Mac/Linux:  
+source .venv/bin/activate  
+
+---
+
+### 3. Install dependencies
+
+pip install -r requirements.txt
+
+---
+
+### 4. Add API Key
+
+Create the file:
 
 .streamlit/secrets.toml
 
 Add:
 
 gemini_api_key = "YOUR_API_KEY"
-5️⃣ Run the app
+
+---
+
+### 5. Run the application
+
 streamlit run app/frontend/streamlit_app.py
 
-##⚠️ Known Issues
+---
 
-Free Gemini API tier has rate limits
+## Known Issues
 
-If you see:
+• Free Gemini API tier has strict rate limits  
+• You may encounter 429 (RESOURCE_EXHAUSTED) errors  
+• Wait before retrying or upgrade your API plan  
 
-RESOURCE_EXHAUSTED
-
- Wait ~60 seconds OR upgrade API plan
+---
 
 ## Example Input
+
 What if electricity never existed?
-## Example Output
 
-No electrical infrastructure
+---
 
-Slower technological advancement
+## Example Output (Summary)
 
-Alternative energy evolution (mechanical, steam)
+• No electrical infrastructure  
+• Slower technological development  
+• Alternative energy systems may evolve  
+• Reduced global connectivity  
+• Limited digital transformation  
 
-Reduced digital revolution impact
+---
 
-Lower global connectivity
+## Why This Project
 
-## Why This Project Stands Out
+• Demonstrates structured AI system design  
+• Uses optimized single-call LLM architecture  
+• Shows real-world prompt engineering  
+• Clean separation of backend and UI  
+• Suitable for production-level extension  
 
-Not a basic chatbot ❌
-
-Uses structured reasoning pipeline ✅
-
-Optimized LLM usage (1-call design) ✅
-
-Clean UI + production architecture ✅
-
-Demonstrates real-world AI system design ✅
+---
 
 ## Future Improvements
 
-Chat-style interface
+• Chat-based interface  
+• Multi-scenario comparison  
+• Timeline visualization  
+• Memory-based simulations  
+• Offline fallback handling  
 
-Multi-scenario comparison
-
-Visualization of impact timelines
-
-Memory-based simulations
-
-Offline fallback logic
+---
 
 ## Author
 
-Subasri B | Gen AI Intern @Sourcesys
+Subasri B
 
-⭐ If you like this project
+---
 
-Give it a ⭐ on GitHub — it helps a lot!
+## License
+
+This project is intended for educational and portfolio use.
