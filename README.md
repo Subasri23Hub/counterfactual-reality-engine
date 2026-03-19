@@ -50,6 +50,7 @@ User Input → Prompt Builder → LLM (Single Call) → Structured JSON → UI R
 
 
 counterfactual-reality-engine/
+
 │
 ├── app/
 │ ├── frontend/
