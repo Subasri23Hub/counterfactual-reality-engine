@@ -2,7 +2,7 @@
 
 An AI-powered system that simulates alternate realities ("what-if" scenarios) using structured reasoning and a single optimized LLM call.
 
-Live Demo: Access the deployed application here → https://counterfactual-reality-engine-wwyjw7vga798jpjackfony.streamlit.app/
+Live Demo: Access the deployed application here → https://counterfactual-reality-engine-4ghiffzwbsmacrrnrvghcg.streamlit.app/
 
 ---
 
