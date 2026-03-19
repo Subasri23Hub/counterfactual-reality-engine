@@ -49,39 +49,24 @@ User Input → Prompt Builder → LLM (Single Call) → Structured JSON → UI R
 ## Project Structure
 
 
+```
 counterfactual-reality-engine/
-
-│
+|
 ├── app/
-
-│ ├── frontend/
-
-│ │ └── streamlit_app.py
-
-│ │
-
-│ ├── config.py
-
-│ ├── models.py
-
-│ ├── prompts.py
-
-│ └── main.py
-
-│
-
+│   ├── frontend/
+│   │   └── streamlit_app.py
+│   |
+│   ├── config.py
+│   ├── models.py
+│   ├── prompts.py
+│   └── main.py
+|
 ├── .streamlit/
-
-│ └── secrets.toml
-
-│
-
+│   └── secrets.toml
+|
 ├── requirements.txt
-
 ├── README.md
-
 └── .gitignore
-
 
 ---
 
