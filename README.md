@@ -1,10 +1,10 @@
-# 🚀 Counterfactual Reality Engine
+#  Counterfactual Reality Engine!
 
 An AI-powered system that simulates **alternate realities ("what-if" scenarios)** using structured reasoning and a **single optimized LLM call**.
 
 ---
 
-## 🧠 What This Project Does
+##  What This Project Does
 
 This application takes a hypothetical scenario like:
 
@@ -26,13 +26,13 @@ All in **one API call** → fast, efficient, production-ready.
 
 ---
 
-## ⚙️ Architecture (FAANG-Level)
+##  Architecture (FAANG-Level)
 
 
 User Input → Prompt Builder → Gemini API (1 Call) → JSON Output → UI Rendering
 
 
-### 🔥 Key Design Highlights
+###  Key Design Highlights
 
 - ✅ **Single-call architecture** (cost-efficient & fast)
 - ✅ **Structured JSON output parsing**
@@ -42,7 +42,7 @@ User Input → Prompt Builder → Gemini API (1 Call) → JSON Output → UI Ren
 
 ---
 
-## 🛠️ Tech Stack
+##🛠️ Tech Stack
 
 - **Python**
 - **Streamlit**
@@ -52,7 +52,7 @@ User Input → Prompt Builder → Gemini API (1 Call) → JSON Output → UI Ren
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 
 counterfactual-reality-engine/
@@ -76,7 +76,7 @@ counterfactual-reality-engine/
 
 ---
 
-## 🔑 Setup Instructions
+##  Setup Instructions
 
 ### 1️⃣ Clone the repository
 ```bash
@@ -99,19 +99,20 @@ Add:
 gemini_api_key = "YOUR_API_KEY"
 5️⃣ Run the app
 streamlit run app/frontend/streamlit_app.py
-⚠️ Known Issues
 
-Free Gemini API tier has rate limits (429 errors)
+##⚠️ Known Issues
+
+Free Gemini API tier has rate limits
 
 If you see:
 
 RESOURCE_EXHAUSTED
 
-👉 Wait ~60 seconds OR upgrade API plan
+ Wait ~60 seconds OR upgrade API plan
 
-💡 Example Input
+## Example Input
 What if electricity never existed?
-🧪 Example Output
+## Example Output
 
 No electrical infrastructure
 
@@ -123,7 +124,7 @@ Reduced digital revolution impact
 
 Lower global connectivity
 
-🎯 Why This Project Stands Out
+## Why This Project Stands Out
 
 Not a basic chatbot ❌
 
@@ -135,7 +136,7 @@ Clean UI + production architecture ✅
 
 Demonstrates real-world AI system design ✅
 
-🚀 Future Improvements
+## Future Improvements
 
 Chat-style interface
 
@@ -147,7 +148,7 @@ Memory-based simulations
 
 Offline fallback logic
 
-👨‍💻 Author
+## Author
 
 Subasri B | Gen AI Intern @Sourcesys
 
