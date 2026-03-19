@@ -53,19 +53,33 @@ counterfactual-reality-engine/
 
 │
 ├── app/
+
 │ ├── frontend/
+
 │ │ └── streamlit_app.py
+
 │ │
+
 │ ├── config.py
+
 │ ├── models.py
+
 │ ├── prompts.py
+
 │ └── main.py
+
 │
+
 ├── .streamlit/
+
 │ └── secrets.toml
+
 │
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 
