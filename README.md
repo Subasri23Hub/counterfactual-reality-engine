@@ -67,10 +67,10 @@ counterfactual-reality-engine/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-
+```
 
 ---
+
 ## Setup Instructions
 
 ### 1. Clone the repository
